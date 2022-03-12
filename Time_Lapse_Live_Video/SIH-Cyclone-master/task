@@ -1,0 +1,16 @@
+problem statement: 
+
+Development of a deep Convolutional Neural Network (CNN) for Tropical Cyclone intensity estimation using half-hourly INSAT-3D IR Images and development of a web application for visualization of the imagery.
+
+
+satellite: INSAT3D/3DR
+
+image interval: 15min
+
+required images: instantaneous structural changes during evolution, intensification, and landfall of Tropical Cyclones.
+
+dataset image year duration: 
+Datasets of Cyclones captured by INSAT-3D over the Indian Oceans are available since 2014
+
+
+link:- https://mosdac.gov.in/gallery/index.html?&prod=3DIMG_*_L1C_ASIA_MER_BIMG.jpg&date=2022-01-06&count=47
