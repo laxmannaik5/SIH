@@ -1,13 +1,38 @@
 
 
 html { 
-  background: url('./images/background-image.jpg') no-repeat center center fixed; 
-  background-color: #062C30;
+  /* background-color: #062C30;
   top: 0; 
   left: 0;
-  min-width: 100%;
-  min-height: 100%;
+  height: 100%; */
+  /* background: url(images/background-image.jpg) no-repeat; */
+  /* -webkit-background-size: cover; */
+  /* -moz-background-size: cover; */
+  /* -o-background-size: cover;  */
+  /* padding: 10px;
+  width: 100%;
+  height: 100%; */
+  /* background-size: cover; */
+  height: 100%;
+  box-sizing: border-box;
+  background: rgb(190, 245, 247);
+  /* object-fit: cover; */
+  
 }
+.bg {
+  background: url(images/background-image.jpg) center no-repeat;
+  border-radius: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  height: 46rem;
+  box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+  background-position:center;
+}
+
 
 .card{
     width: 400px;
