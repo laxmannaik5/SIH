@@ -1,10 +1,23 @@
-import React from 'react';
-import Card from './Card';
+import React, {useState} from 'react';
+import NormalCard from './NormalCard';
+import DangerCard from './DangerCard';
+import FooterCard from './FooterCard';
 
 function App(){
+
+    const [isDone, setIsDone] = useState(false);
+
+    function handleClick(){
+        setIsDone(!isDone);
+    }
+
     return(
-        <div>
-            <Card />
+        <div onClick={handleClick}>
+
+            {!isDone ? <NormalCard /> : <DangerCard />}
+            
+            <FooterCard />
+
         </div>
     );
 }

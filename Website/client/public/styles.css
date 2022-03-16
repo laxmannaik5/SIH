@@ -48,3 +48,13 @@ html {
     width: 60%;
     text-align: left;
   }
+  .footer {
+    margin-top: 200px;
+    width: 180px;
+    height: 200px;
+    border: 2px solid #FFFFFF;
+  }
+  .footer-img {
+    width: 150px;
+    height: 180px;
+  }
