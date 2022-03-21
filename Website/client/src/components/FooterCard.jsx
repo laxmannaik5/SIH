@@ -6,7 +6,7 @@ function FooterCard(){
         <div className='row'>
             <div className='column footer'>
                 <div className='card'>
-                    <img className='footer-img' src = {CardImage}></img>
+                    {/* <img className='footer-img' src = {CardImage}></img> */}
                 </div>
             </div>
             <div className='column footer'>
