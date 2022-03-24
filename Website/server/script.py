@@ -3,8 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from skimage.io import imread, imshow, imsave
-l_img = cv2.imread('C:/Users/laxma/Desktop/SIH_PROJECT/Website/server/images/image.jpg')
-img = l_img[470:,300:,:]
+l_img = cv2.imread('C:/Users/laxma/Desktop/SIH_PROJECT/Website/server/images/image5.jpg')
+l_img = cv2.resize(l_img,(1000,1000))
+img = l_img[500:900,300:,:]
 kernel1 = np.ones( (3,3), dtype=np.uint8 )
 erode_img1 = cv2.erode(img,kernel1,iterations=2)
 dil_img1 = cv2.dilate(erode_img1,kernel1)
