@@ -21,13 +21,13 @@ html {
 }
 .bg {
   background: url(images/background-image.jpg) center no-repeat;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   margin-left: 35px;
   margin-right: 35px;
   margin-top: 5px;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 95%;
+  width: auto;
   height: 46rem;
   box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
   background-position:center;
